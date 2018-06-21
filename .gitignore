@@ -6,6 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
+# Emacs backup extensions
+*~
+*#
+
 # Distribution / packaging
 .Python
 build/
