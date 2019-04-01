@@ -1,0 +1,281 @@
+
+        DelPhi Parameters
+
+        igrid       = 121
+        scale       = 4
+        perfil      = 0
+
+        repsin  = 2.0
+        repsout = 80.0
+        conc    = 0.1
+        ibctyp  = 4
+        res2    = 0.01
+        nlit    = 500
+        
+        acent  = [44.0147, 44.0147, 114.781]
+        natoms = 17250
+        in_crg = P.crg
+        in_siz = DataBaseT.siz
+        in_pdb = P.pdb
+        
+        radprb  = 1.4
+        energy  = ['s', 'c']
+        site    = ['a', 'q', 'p']
+        in_crg_len = 5
+        in_siz_len = 13
+        in_pdb_len = 5
+
+        relfac = 0.2
+        relpar = 0.2
+        nonit  = 50
+        fcrg   = False
+        pbx    = True
+        pby    = True
+        pbz    = False
+
+        precision  = single
+        float_type = <class 'ctypes.c_float'>
+        isurftype  = -1
+        parallel   = False
+        debug      = False
+        
+        
+   
+ loading variables time was (sec)   -7889472.00    
+   
+ realsiz ==            4
+ igrid     ->            0                  121
+ scale     ->    10000.0000       1.0000000000000000     
+ repsin    ->    2.00000000       2.0000000000000000     
+ repsout   ->    80.0000000       80.000000000000000     
+ radprb(1) ->    1.39999998       1.3999999999999999     
+ conc(1)   ->    0.00000000      0.10000000000000001     
+ ibctyp    ->            2                    4
+ res2      ->    0.00000000       1.0000000000000000E-002
+ nlit      ->            0                  500
+ py_acent      -> (   0.00000000       0.00000000       0.00000000     ) (   44.014699999999998        44.014699999999998        114.78100000000001      )
+ energy      -> sc
+ sites -> aqp
+ natom ->                 17250
+ Direct mapping of epsilon: (0/1)(n/y)           1
+ time to read in and/or assign rad/chrg=  0.544008970    
+ object number :              1 ,  is a molecule
+ cmin  -6.21400023      -6.15900040       102.617996    
+ cmax   94.3639984       94.1890030       168.612000    
+ Debye Lengths contained in the finite diff. box   1.27118099    
+   
+ grid size                  :         121
+ percent of box to be filled:   89.7183380    
+ scale,in grids/A :   1.00000000    
+ xmin,xmax     (A):  -6.21400023       94.3639984    
+ ymin,ymax     (A):  -6.15900040       94.1890030    
+ zmin,zmax     (A):   102.617996       168.612000    
+ x,y,z range   (A):    100.577995       100.348007       65.9940033    
+ system geometric center in (A):   44.0750008       44.0149994       135.614990    
+  grid  box is centered in (A) :   44.0147018       44.0147018       114.780998    
+ object centre offset (gu)  :   0.00000000       0.00000000       0.00000000    
+ outer dielectric           :   80.0000000    
+ dielectric in medium number           0  :   80.0000000    
+ dielectric in medium number           1  :   1.99999988    
+ first kind salt concentration (M)   :  0.100000001    
+ valences salt 1 are                   1  and           1
+ second kind salt concentration (M)  :   0.00000000    
+ valences salt 2 are                   0  and           0
+ ionic strength (M)         :  0.100000001    
+ debye length (A)           :   9.70593166    
+ absolute temperature (K)   :   297.334198    
+ ion exclusion radius (A)   :   2.00000000    
+ probe radius facing water(A:   1.39999998    
+ probe radius, internal (A) :   1.39999998    
+ boundary conditions        : coulombic   
+ x,y,z periodic bc. and volt. drop flags: T T F F F F
+ # of linear iterations     :         500
+ convergence by rms  change :   0.00000000      kt
+ convergence by max  change :   9.99999978E-03  kt
+ convergence by norm change :   0.00000000      kt
+ # of non-linear iterations :          50
+ non-linear energy calculat.: T
+ manual relaxation parameter : T
+ ionic direct energy contribution: F
+ concentration map output   : F
+ spherical charge distbn.   : F
+ INSIGHT format output      : F
+ site potential output      : T
+ modified atom file output  : F
+ map file label             :
+qdiffxas: qdiffxs4 with an improved surfacing routine       
+  convergence graph turned off
+  potential listings turned off
+  
+ number of charges coming from molecules            6
+ radmax2 ->   1.00000000       1.35631564E-19   2.80259693E-45   538976288
+ start vw surface at   0.544008970    
+ radmax2 ->   1.00000000       1.35631564E-19   2.80259693E-45   538976288
+ Starting creating Van der Waals  Epsilon Map 
+ radmax2 ->   1.00000000       1.94500005       2.00000000     F
+ radmax2 ->   1.00000000       3.94500017       2.00000000     F
+ radmax2 ->   1.00000000       3.94500017       2.00000000     F
+ Ending creating Van der Waals  Epsilon Map 
+ fill in re-entrant regions at   0.640814006    
+ here in vwtms	
+ boundary points facing continuum solvent=       199237
+ total number of boundary points before elab.=       199237
+ radpmax,radprb    1.39999998       1.39999998       1.39999998    
+ # of vertices =          384  # of edges =          372
+ # of atom-atom pairs =       291992
+ time to find all pairs =    4.91789989E-02
+ # pairs analyzed (atom-atom and atom-object)=       291992
+ # exposed pairs (atom-atom and atom-object)=        40086
+ no. arc points  =       943352
+ no. surface atoms  =        12068  nbur =         5182
+ mkacc time =   0.425267011    
+ initial cube size too small, 
+ in assigning accessible points to a grid
+ therefore rescaling...
+ grid for indexing accessible points =    2.18400002    
+ bgp added m=       61321  bgp removed  mr =      125649
+ bgp added m=        2055  bgp removed  mr =       33375
+ bgp added m=          11  bgp removed  mr =          24
+ bgp added m=           0  bgp removed  mr =           0
+ time to grow re-entrant surface =   0.914058030    
+ no. cavity mid-points inaccessible to solvent =            0
+ after surface elaboration ibnum=       103576
+     and               ibnumsurf=       103576
+ scaling boundary grid points
+ time taken =   0.392796993    
+           0  points had to be assigned by global comparison
+ time to turn everything in is   2.47166491    
+   
+ number of atom coordinates read  :        17250
+ total number of assigned charges    :            6
+ net assigned charge              :   -2.98023224E-08
+ assigned positive charge         :    1.32999992    
+ centred at (gu) :   61.2304153       60.7268791       60.9727669    
+ assigned negative charge         :   -1.32999992    
+ centred at (gu) :   61.1810150       60.8856812       60.9094543    
+    
+ number of dielectric boundary points      103576
+ no. dielectric boundary points in salt =            0
+ no. charged boundary grid points =           0
+ iepsmp to db, and charging done at   2.48728895    
+ number of grid points assigned charge          30
+  
+   setting boundary conditions
+  
+  some initial phi values:           61         121
+  midg,midg,1; midg,midg,igrid 
+  -3.01006366E-06   1.99471833E-06
+  midg,1,midg; midg,igrid,midg 
+   7.32164335E-06  -5.01691829E-06
+  1,midg,midg; igrid,midg,midg 
+  -2.15888576E-06   1.61548087E-06
+ using entered value for relaxation of:   0.200000003    
+ estimated iterations to convergence          12
+   
+ setup time was (sec)    2.49774790    
+   
+ isolvarch           0
+ now iterating at: 16:13:57
+ linear rel. parameter =    1.05572808    
+ non linear fixed rel. parameter =  0.200000003    
+  
+  
+   rms-change     max change         #iterations
+   2.42930278E-03  0.519695282      at           10 iterations
+   6.65213680E-04   8.95171165E-02  at           20 iterations
+   2.89343938E-04   2.97231674E-02  at           30 iterations
+   1.75273657E-04   1.72032118E-02  at           40 iterations
+   1.32473753E-04   1.42899752E-02  at           50 iterations
+   1.10244750E-04   1.17772818E-02  at           60 iterations
+   9.53030685E-05   9.69839096E-03  at           70 iterations
+   8.38597407E-05   7.99465179E-03  at           80 iterations
+   7.45623765E-05   6.60777092E-03  at           90 iterations
+   6.67844361E-05   5.48219681E-03  at          100 iterations
+   6.01659303E-05   4.56881523E-03  at          110 iterations
+   5.44692193E-05   3.83067131E-03  at          120 iterations
+   4.95231980E-05   3.55696678E-03  at          130 iterations
+   4.51976157E-05   3.30835581E-03  at          140 iterations
+   4.13894813E-05   3.07661295E-03  at          150 iterations
+   3.80188576E-05   2.86126137E-03  at          160 iterations
+   3.50205155E-05   2.66116858E-03  at          170 iterations
+   3.23409586E-05   2.47496367E-03  at          180 iterations
+   2.99368330E-05   2.30205059E-03  at          190 iterations
+   2.77723811E-05   2.14147568E-03  at          200 iterations
+   2.58168257E-05   1.99258327E-03  at          210 iterations
+   2.40452737E-05   1.85436010E-03  at          220 iterations
+   2.24356663E-05   1.72626972E-03  at          230 iterations
+   2.09701575E-05   1.60741806E-03  at          240 iterations
+   1.96325818E-05   1.49720907E-03  at          250 iterations
+   1.84091386E-05   1.39516592E-03  at          260 iterations
+   1.72880027E-05   1.30033493E-03  at          270 iterations
+   1.62594843E-05   1.21241808E-03  at          280 iterations
+   1.53131095E-05   1.13111734E-03  at          290 iterations
+   1.44418100E-05   1.05553865E-03  at          300 iterations
+   1.36384106E-05   9.85503197E-04  at          310 iterations
+   1.28956945E-05   9.20414925E-04  at          320 iterations
+   1.22091169E-05   8.60095024E-04  at          330 iterations
+   1.15740431E-05   8.04007053E-04  at          340 iterations
+   1.09843704E-05   7.51972198E-04  at          350 iterations
+   1.04372102E-05   7.03752041E-04  at          360 iterations
+   9.92860441E-06   6.58929348E-04  at          370 iterations
+   9.45532975E-06   6.17206097E-04  at          380 iterations
+   9.01459407E-06   5.78403473E-04  at          390 iterations
+   8.60371165E-06   5.42402267E-04  at          400 iterations
+   8.22029051E-06   5.08785248E-04  at          410 iterations
+   7.86158580E-06   4.77552414E-04  at          420 iterations
+   7.52607457E-06   4.48465347E-04  at          430 iterations
+   7.21210654E-06   4.21524048E-04  at          440 iterations
+   6.91775631E-06   3.96370888E-04  at          450 iterations
+   6.64162553E-06   3.72648239E-04  at          460 iterations
+   6.38219581E-06   3.50594521E-04  at          470 iterations
+   6.13867678E-06   3.30328941E-04  at          480 iterations
+   5.90918262E-06   3.11136246E-04  at          490 iterations
+   5.69321946E-06   2.93374062E-04  at          500 iterations
+  
+ now for the non-linear iterations
+  
+   rms-change     max change         #iterations
+                    New relaxation parameter =      0.200000003    
+   5.55565521E-07   2.86102295E-05           1 it.                   
+   5.60741455E-07   2.87294388E-05           2 it.                   
+   5.58767567E-07   2.86102295E-05           3 it.                   
+   5.56884743E-07   2.84910202E-05           4 it.                   
+   5.55235545E-07   3.05175781E-05           5 it.                   
+   5.52804750E-07   2.81333923E-05           6 it.                   
+   5.50809830E-07   2.78949738E-05           7 it.                   
+   5.48828552E-07   2.77757645E-05           8 it.                   
+   5.46865238E-07   2.76565552E-05           9 it.                   
+   5.44921818E-07   2.75373459E-05          10 it.                   
+   5.43045019E-07   2.72989273E-05          11 it.                   
+   5.41210795E-07   2.71797180E-05          12 it.                   
+   5.39136011E-07   2.69412994E-05          13 it.                   
+   5.37174344E-07   2.68220901E-05          14 it.                   
+   5.35291974E-07   2.67028809E-05          15 it.                   
+   5.33874470E-07   3.05175781E-05          16 it.                   
+   5.31528372E-07   2.63452530E-05          17 it.                   
+   5.29701708E-07   2.62260437E-05          18 it.                   
+   5.27709744E-07   2.61068344E-05          19 it.                   
+   5.25989094E-07   2.59876251E-05          20 it. full non-linearity
+   5.24649863E-07   3.05175781E-05          21 it. full non-linearity
+   5.22293703E-07   2.56299973E-05          22 it. full non-linearity
+   5.20520587E-07   2.55107880E-05          23 it. full non-linearity
+ finished qdiffx linear iterations
+ at                       : 16:13:59
+ time taken (sec)         :    5.14840508    
+ # full non-linear loops  :            1
+ mean,max change (kT/e)   :    0.00000000       0.00000000    
+ self-reaction field energy :      -54482.6602      kt
+ total s.charge,no epsin carrying :   -0.0004
+ corrected reaction field energy:   -3.3074107561874535       kt
+ total reaction field energy :     -54485.967567006184       kt
+ coulombic energy :                -184.81169723714117       kt
+ rho*phi/2 term in solution :        -1.80864925E-04 kt
+ osmotic pressure term      :         1.80821080E-04 kt
+ All required energy terms but grid and self_react.:  -3.30741072     kt
+ energy calculations done at   5.16194201    
+  -1.14071736E-06  -1.14071736E-06          46          46           1
+  -4.13046451E-04  -4.13046451E-04          46          46          91
+   
+ total cpu time was (sec)    4.62215567    
+   
+ DelPhi exited at 16:13:59

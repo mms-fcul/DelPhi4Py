@@ -1,0 +1,27 @@
+ realsiz ==            4
+ atom radii read from file
+ DataBaseT.siz
+  
+ !siz file modified by VT 2013/03/15                         
+ !Hydrogen atoms have 0.001 radii because                    
+ ! DelPhi complains if H has charge and no                   
+ ! radii. It does not change final results                   
+ # of radius parameter records:         960
+  
+ atomic charges read from file
+ P.crg
+  
+ !crg file created by gen_files.awk                          
+ # of charge parameter records:        1058
+ assigning charges and radii...
+  
+ opening formatted file:P.pdb
+ Delphi Format Number =            0
+ You are not reading from an objectfile!
+ Assuming having only molecules, and one medium
+ You are not reading from an objectfile! assuming       having only molecules, and one dielectric medium
+ number of atoms read in =        17250
+ in setrc, iatrad= F
+ Direct mapping of epsilon: (0/1)(n/y)           1
+ cmin  -6.21400023      -6.15900040       102.617996    
+ cmax   94.3639984       94.1890030       168.612000    
